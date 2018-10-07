@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGTextView_Example' do
+  pod 'LGTextView', :path => '../'
+
+  target 'LGTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
