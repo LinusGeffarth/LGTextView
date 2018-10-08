@@ -2,10 +2,6 @@ use_frameworks!
 
 target 'LGTextView_Example' do
   pod 'LGTextView', :path => '../'
-
-  target 'LGTextView_Tests' do
-    inherit! :search_paths
-
+  pod 'Localize', '~> 2.0.5'
     
-  end
 end

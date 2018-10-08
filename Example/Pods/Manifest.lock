@@ -1,16 +1,24 @@
 PODS:
-  - LGTextView (0.1.0)
+  - LGTextView (1.0.0):
+    - Localize (~> 2.0.5)
+  - Localize (2.0.5)
 
 DEPENDENCIES:
   - LGTextView (from `../`)
+  - Localize (~> 2.0.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Localize
 
 EXTERNAL SOURCES:
   LGTextView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LGTextView: 1bc97ed981e8039fcb32c420b254390220f43a8f
+  LGTextView: 03a2b08ff80d3a51abcf37c8bc0036af06182dc1
+  Localize: 0fa01a98c5caf8e235cc0160984c4922aa310b61
 
-PODFILE CHECKSUM: 4551e5ca38dfcad68560c5aee66ab49a61736931
+PODFILE CHECKSUM: c8f3d35ec9325997ceae3a5dd2c65913ab79debe
 
 COCOAPODS: 1.5.3

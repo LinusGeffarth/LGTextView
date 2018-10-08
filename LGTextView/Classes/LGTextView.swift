@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Localize
 
 @IBDesignable
 class LGTextView: UITextView {
@@ -56,8 +57,12 @@ class LGTextView: UITextView {
         didSet { setup(); togglePlaceholder() }
     }
     
+    @IBInspectable public var placeholderKey: String? {
+        didSet { setup(); togglePlaceholder() }
+    }
+    
     private func showLabel() {
-        placeholderLabel.text = placeholder
+        placeholderLabel.text = placeholderKey?.localized ?? placeholder
         placeholderLabel.font = self.font
         
         placeholderLabel.frame.origin = CGPoint(x: 5, y: textContainerInset.top)

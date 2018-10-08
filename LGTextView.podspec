@@ -11,14 +11,15 @@ Simple UITextView subclass that features an IBInspectable placeholder written pu
   s.homepage         = 'https://github.com/linusgeffarth/LGTextView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'linusgeffarth' => 'linus@geffarth.de' }
-s.source           = { :git => 'https://github.com/linusgeffarth/LGTextView.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/linusgeffarth/LGTextView.git', :tag => s.version }
   s.social_media_url = 'https://twitter.com/linusgeffarth'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.1'
   s.swift_version = '4.2'
 
   s.source_files = 'LGTextView/Classes/*.swift'
   
   s.frameworks = 'UIKit'
+  s.ios.dependency 'Localize', '~> 2.0.5'
 
 end

@@ -32,6 +32,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Put some fancy placeholder here 💥"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderKey" value="placeholder"/>
                                 </userDefinedRuntimeAttributes>
                             </textView>
                         </subviews>
