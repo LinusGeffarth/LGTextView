@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGTextView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.0-localizable'
   s.summary          = 'Simple UITextView subclass that features an IBInspectable placeholder'
 
   s.description      = <<-DESC
@@ -11,7 +11,7 @@ Simple UITextView subclass that features an IBInspectable placeholder written pu
   s.homepage         = 'https://github.com/linusgeffarth/LGTextView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'linusgeffarth' => 'linus@geffarth.de' }
-  s.source           = { :git => 'https://github.com/linusgeffarth/LGTextView.git', :tag => s.version }
+s.source           = { :git => 'https://github.com/linusgeffarth/LGTextView.git', :tag => s.version, :branch => "localizable" }
   s.social_media_url = 'https://twitter.com/linusgeffarth'
 
   s.ios.deployment_target = '9.1'
